@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Login</title>
+
+  <!-- Bootstrap -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="modal.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+    <div class="container">      
+
+      <div class="page-header">
+        <h1>Inicial</h1>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut orci pharetra, sollicitudin metus sed, vehicula turpis. Nullam id tellus a sem iaculis efficitur. Nulla condimentum elementum finibus. Phasellus fermentum ipsum sit amet maximus euismod. Mauris consequat, ex quis fringilla vestibulum, orci nisi sollicitudin quam, id efficitur magna nibh faucibus turpis. Etiam ultricies enim nec est finibus, non aliquam odio efficitur. Integer porttitor, nisi id volutpat pellentesque, urna est sagittis nisi, ac sodales nibh mi eget justo. Sed et aliquam lectus. Mauris at leo quis nibh pulvinar efficitur sit amet quis magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi at ante non odio commodo interdum. Suspendisse lorem quam, molestie quis ipsum et, dapibus malesuada erat. Pellentesque aliquam facilisis lectus sed hendrerit. Sed at imperdiet dolor. Quisque id dolor eget quam ullamcorper pulvinar.</h4>
+
+      </div>
+
+
+
+      <button type="button" class="btn btn-warning" 
+      data-toggle="modal" data-target="#janela">
+      Logar
+    </button>
+
+    <!-- Janela -->
+
+    <form class="modal fade" id="janela">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+
+          <!-- cabecalho -->
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+            <h4 class="modal-title">Efetuar login</h4>
+          </div>
+          <!-- corpo -->
+          <div class="modal-body">
+
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+            </div>
+
+            <div class="form-group">
+              <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+
+            </div>
+
+          </div>
+          <!-- rodape -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Cancelar
+            </button>
+
+
+            <button type="submit" class="btn btn-primary">
+              Logar
+            </button>
+          </div>
+
+        </div>
+
+
+      </div>  
+
+
+    </form>
+
+  </div>  
+
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+    </html>
